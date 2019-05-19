@@ -16,6 +16,23 @@
   background-color: rgb(233, 56, 25);
   position: relative;
 }
+.unique {
+  height: 100vh;
+  width: 100%;
+  /* rgb stands for red, green, blue using a combination of these three colors, you can make ANY color. Play around with th numbers a little bit! */
+  background-color: rgb(20, 200, 220);
+  position: relative;
+}
+
+#anchor-1 {
+  top:50%;
+  left:50%;
+  translate:translateX(-50%);
+  translate:translateY(50%);
+  color:green;
+  position: absolute;
+
+}
 
 .box-1 {
   position: absolute;
